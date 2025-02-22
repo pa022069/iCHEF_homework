@@ -1,0 +1,48 @@
+body {
+  margin: 40px 0px;
+}
+
+h2,
+h4 {
+  margin: 20px 0px;
+}
+
+.col-4 {
+  margin-bottom: 25px;
+}
+
+.cart {
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+.cart .list-group-item {
+  display: flex;
+  align-items: center;
+}
+
+.counter-wrapper {
+  margin-right: 10px;
+}
+
+.counter-wrapper > :nth-child(2).btn-outline-primary {
+  width: 45px;
+}
+
+.product-list {
+  max-width: 600px;
+}
+
+.product-item {
+  display: flex;
+  padding: 25px;
+}
+
+.product-item > img {
+  width: 150px;
+  margin-left: auto;
+}
+
+.product-list desc {
+  color: red;
+}
